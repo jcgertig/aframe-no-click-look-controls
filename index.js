@@ -1,4 +1,4 @@
-var registerComponent = require('aframe').aframeCore.registerComponent;
+var registerComponent = require('./../aframe/src/core/component').registerComponent;
 var THREE = require('./../aframe/src/lib/three');
 
 // To avoid recalculation at every mouse movement tick
